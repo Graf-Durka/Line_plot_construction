@@ -33,16 +33,16 @@ pip install pandas matplotlib openpyxl
 Базовый запуск с демонстрационными данными
 bash
 
-python script.py
+    python script.py
 
 Запуск с указанием типа данных
 bash
 
 # Для временных данных (даты)
-python script.py data.csv --data-type date
+    python script.py data.csv --data-type date
 
-# Для числовых данных
-python script.py data.xls --data-type num
+#Для числовых данных
+    python script.py data.xls --data-type num
 
 Формат входных данных
 
