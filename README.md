@@ -19,7 +19,7 @@ About
 
 Установка зависимостей
 
-pip install pandas matplotlib openpyxl
+    pip install pandas matplotlib openpyxl
 
 Описание зависимостей:
 
@@ -41,7 +41,7 @@ bash
 # Для временных данных (даты)
     python script.py data.csv --data-type date
 
-#Для числовых данных
+# Для числовых данных
     python script.py data.xls --data-type num
 
 Формат входных данных
@@ -49,11 +49,13 @@ bash
 Файлы должны содержать данные в следующем формате:
 
 Первая строка: метки осей и заголовок
+
 text
 
 Время,Температура,График температуры
 
 Последующие строки: данные для построения
+
 text
 
 2023-01-01,15.5
