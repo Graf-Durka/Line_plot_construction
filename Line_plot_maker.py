@@ -85,7 +85,7 @@ def plot_data(pd_data, x_label, y_label, title, data_type):
     # Форматируем дату в нужный для построения графика формат
     if data_type == 'date':
         plt.gca().xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d'))
-        plt.gca().xaxis.set_major_locator(mdates.AutoDateLocator())
+        plt.gca().xaxis.set_major_locator(mdates.AutoDateLocator())e
         plt.xticks(rotation=45, )
     else:
         plt.xticks()
@@ -147,7 +147,7 @@ def main():
 
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     main()
 
 """Запуск основной функции"""
