@@ -35,12 +35,14 @@ bash
 
     python script.py
 
-#Запуск с указанием типа данных
+# Запуск с указанием типа данных
 
 Для временных данных (даты)
+
     python script.py data.csv --data-type date
 
 Для числовых данных
+
     python script.py data.xls --data-type num
 
 # Формат входных данных
